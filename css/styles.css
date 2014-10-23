@@ -1,0 +1,195 @@
+/***************
+	GLOBAL
+***************/
+
+/* Typography */
+@font-face {
+    font-family: 'roboto_slabthin';
+    src: url('../font/RobotoSlab-Thin-webfont.eot');
+    src: url('../font/RobotoSlab-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/RobotoSlab-Thin-webfont.woff') format('woff'),
+         url('../font/RobotoSlab-Thin-webfont.ttf') format('truetype'),
+         url('../font/RobotoSlab-Thin-webfont.svg#roboto_slabthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_slabregular';
+    src: url('../font/RobotoSlab-Regular-webfont.eot');
+    src: url('../font/RobotoSlab-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/RobotoSlab-Regular-webfont.woff') format('woff'),
+         url('../font/RobotoSlab-Regular-webfont.ttf') format('truetype'),
+         url('../font/RobotoSlab-Regular-webfont.svg#roboto_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Links */
+a:link,
+a:visited {
+  color: #0079a1;
+  border-bottom: 1px dotted #0079a1;
+  text-decoration: none;
+  transition: color .25s, border-bottom .25s;
+}
+
+a:hover {
+  color: #40DBE5;
+  border-bottom: 1px dotted #fff;
+}
+
+body {
+	background: url("../img/noise.png");
+  	font-family: 'roboto_slabregular', serif;
+}
+
+
+/***************
+	HEADER
+***************/
+header {
+	background: url("../img/bg-tile-2.png");
+	border-top: 2px dotted #ccc;
+	border-bottom: 10px double #ccc;
+	position: relative;
+}
+
+header h1 {
+	font-family: 'roboto_slabthin';
+	font-size: 3em;
+	margin: .5em 0;
+	text-transform: uppercase;
+}
+
+header h1 a:link, 
+header h1 a:visited {
+	border-bottom: none;
+	color: #fff;
+	text-decoration: none;
+	-moz-transition: color .25s;
+	-webkit-transition: color .25s;
+	transition: color .25s;
+}
+
+header h1 a:hover, 
+header h1 a:active {
+	color: #333;
+}
+
+/* Main Navigation */
+header nav {
+	position: absolute;
+	right: 0;
+	top: -1em;
+}
+
+nav li {
+	float: left;
+	list-style-type: none;
+	margin: 0 .5em;
+}
+
+nav a:link, 
+nav a:visited {
+	background: rgba(51,51,51,.35);
+	color: #fff;
+	letter-spacing: 4px; 
+	padding: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a:hover, 
+nav a:active {
+	background: #fff;
+	color: #333;
+	-moz-transition: background .25s;
+	-webkit-transition: background .25s;
+	transition: background .25s;
+}
+
+
+
+/***************
+	TODAY & NOTICES
+***************/
+.today {
+	border-left: 10px solid #000;
+}
+
+article {
+	background: url("../img/bg-tile-3.png");	
+}
+
+.notices {
+	background: url("../img/bg-tile-1.png");
+}
+
+
+
+/***************
+	QUOTE
+***************/
+blockquote {
+	font-size: 3em;
+	font-style: italic;
+	text-align: center;
+}
+
+/***************
+	SESSIONS
+***************/
+.sessions h4 {
+	margin-bottom: 0;
+}
+
+/***************
+	FOOTER
+***************/
+footer {
+	padding: 2em 0 4em 0;
+}
+
+footer p {	
+	text-align: right;
+	color: #333;
+}
+
+footer ul {
+	padding: 0;
+	margin: 0;
+}
+
+footer li {
+	float: none;
+	display: inline;
+}
+
+footer nav {
+	text-align: center;
+}
+
+footer a:link, 
+footer a:visited {
+	color: #0079a1;
+	background: none;
+	border-left: 4px solid #fff;
+	padding: .5em;
+	text-transform: none;
+}
+
+footer a:hover, 
+footer a:active {
+    color: #40DBE5;
+}
+
+/***************
+	Modal
+***************/
+.ui.basic.modal {
+	background: rgba(51,51,51,.85);
+	color: #fff;
+	text-align: center;
+}
