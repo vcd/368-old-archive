@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
 	//alert('stuff');
-	$('.basic.modal').modal('show');
+	//$('.basic.modal').modal('show');
 
 });
