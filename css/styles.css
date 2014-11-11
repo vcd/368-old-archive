@@ -41,7 +41,7 @@ a:hover {
 }
 
 body {
-	background: url("../img/noise.png");
+	background: url("../img/368-noise.png");
   	font-family: 'roboto_slabregular', serif;
 }
 
@@ -50,7 +50,7 @@ body {
 	HEADER
 ***************/
 header {
-	background: url("../img/bg-tile-2.png");
+	background: url("../img/368-bg-tile-2.png");
 	border-top: 2px dotted #ccc;
 	border-bottom: 10px double #ccc;
 	position: relative;
@@ -119,11 +119,11 @@ nav a:active {
 }
 
 article {
-	background: url("../img/bg-tile-3.png");	
+	background: url("../img/368-bg-tile-3.png");	
 }
 
 .notices {
-	background: url("../img/bg-tile-1.png");
+	background: url("../img/368-bg-tile-1.png");
 }
 
 
@@ -185,10 +185,48 @@ footer a:active {
 }
 
 /***************
-	Modal
+	OVERRIDE SEMANTIC UI
 ***************/
+
+/* Modal */
 .ui.basic.modal {
 	background: rgba(51,51,51,.85);
 	color: #fff;
 	text-align: center;
 }
+
+.ui.dimmer {
+	background-color: rgba(255,255,255,.95);
+}
+
+.modal h1 {
+	font-size: 6em;
+	text-decoration: uppercase;
+}
+
+.modal h3 {
+	font-size: 3em;
+}
+
+
+/* Notices */
+.notices h3 {
+	text-align: center;
+}
+
+.notices h4,
+.notices .button {
+	margin-bottom: .25em;
+	margin-top: .25em;
+}
+
+ul.ui.list {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul.ui.list li:before {
+	content: none;
+}
+
