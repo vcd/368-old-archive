@@ -26,6 +26,11 @@
 
 }
 
+body {
+	background: url("../img/368-noise.png");
+  	font-family: 'roboto_slabregular', serif;
+}
+
 /* Links */
 a:link,
 a:visited {
@@ -40,9 +45,10 @@ a:hover {
   border-bottom: 1px dotted #fff;
 }
 
-body {
-	background: url("../img/368-noise.png");
-  	font-family: 'roboto_slabregular', serif;
+
+/* Lists */
+li {
+	margin: .35em 0;
 }
 
 
@@ -142,6 +148,19 @@ blockquote {
 ***************/
 .sessions h4 {
 	margin-bottom: 0;
+}
+
+/***************
+	POSTS
+***************/
+
+.post article {
+	border-bottom: 10px solid #0079a1;
+}
+
+.post article div:hover {
+	background: #fff;
+	transition: background .5s;
 }
 
 /***************
