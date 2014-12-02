@@ -1,6 +1,5 @@
-$(document).ready(function(){
+
 
 	// Modal
-	// $('.basic.modal').modal('show');
+	$('.basic.modal').modal('show');
 
-});
