@@ -1,80 +1,69 @@
-# Midterm
+# Section A
 
-## Setup
+* [Rachel Allison](http://rallison1.github.io)
+* [Johanna Balaszi](http://jbalaszi1.github.io/)
+* [Jana Beals](http://janabeals.github.io/)
+* [Veronica Borda](http://lynnborda15.github.io)
+* [Alix Carman](http://alixcarman.github.io)
+* [Guillermo Contreras Mendoza](http://iwilliamm.github.io/)
+* [Tyson Duerr](http://tysonduerr93.github.io/)
+* [Katelyn Johnston](http://katelynalice.github.io/)
+* [Jennica Jones](http://jeaj.github.io/)
+* [Peter Kim](http://pnyk.github.io/)
+* [Tyler Melhart](http://tmelhart.github.io)
+* [Frank Pecka](http://linad181.github.io)
+* [Gayle Platz]()
+* [Danielle Roth](http://danielleroth.github.io/)
+* [Claire Simpson](http://clarinda.github.io)
+* [Adam Smith]()
+* [Bridget Smith](http://bridgetsmith.github.io)
+* [Amanda Strong](http://amandastrong.github.io)
+* [Margret Tate](http://margret21.github.io)
+* [David Walker](http://david2walker.github.io/)
 
-1. [Download provided files](https://www.dropbox.com/s/ylmw9vaahww15k9/midterm.zip?dl=0). Link provided in class.
-2. Follow instructions carefully to recreate website from screenshots, movie, HTML, and CSS comments. 
-3. Zip/Compress files and upload to EWU Canvas as _**Midterm-YOUR-NAME.zip**_ to Midterm assignment.
+# Section B
 
-## 1. Character Entities
+* [Zoe Baker](http://zbaker.github.io)
+* [Bertram Cole](https://bertramcole.github.io)
+* [Katria Dony](http://kdony1.github.io)
+* [Kris Estacio](http://krisestacio.github.io/)
+* [Wyatt Feaster](http://wyattfeaster.github.io/)
+* [Amoreena France](http://afrance74.github.io/)
+* [Kenzo Fujiki](http://kaiser-ken.github.io/bio.html)
+* [Vincent Hamilton](http://vince1000000.github.io)
+* [Sarah Headley](http://sarahbearmh.github.io/)
+* [Ashley Jhaveri](http://josoa.github.io)
+* [Onyango P. Lopaya](http://plopaya.github.io/)
+* [Ryan Lowe](http://topp-hatt.github.io)
+* [Shayla Mayer](http://shayjul333.github.io)
+* [Sasha Nevin](http://sashanevin.github.io)
+* [Marissa Saidy](http://msaidy.github.io)
+* [Justin Tew](http://gustsu.github.io)
+* [Amanda Todd](http://apanduh.github.io/)
+* [Emily Vivian](http://emily3vivian.github.io/bio.html)
+* [Luke Wiley](http://lukewiley.github.io/)
+* [John Wilson](http://john-wilson.github.io/)
+* [Mia Yoshida](http://mia1279.github.io)
 
-* Edit `index.html` & also `styles.css`
-* [ ] Character Entities 
-  - Left Quote `&ldquo;`
-  - Right Quote `&rdquo;`
-  - Ampersand `&amp;`
-  - Hashtag `&num;`
-  - Copyright `&copy;`
-* [ ] Signika Font from Google Fonts
- - [Signika Font](http://www.google.com/fonts#QuickUsePlace:quickUse/Family:Signika)
-* References
-  - [W3C Character Entities](http://dev.w3.org/html5/html-author/charref)
-  - [Smart Quotes for Smart People](http://smartquotesforsmartpeople.com/)  
+---
 
-## 2. Errors: Relative vs. Absolute. Local vs. Remote. Syntax vs. Semantic.
+## Bio & Resume HOF
 
-* Edit `index.html` & also `styles.css`
-* [ ] Add these absolute paths
-  - FaceBook `https://www.facebook.com/EWUAthletics`
-  - Twitter `https://twitter.com/ewuathletics`
-* [ ] Add these relative paths
-  - `swoop.jpg`
-* [ ] Background image to `container` class
-  - URL is `http://subtlepatterns.com/patterns/rough_diagonal.png`
-* [ ] Fix syntax errors in `styles.css`
-* References
-  - [TH: Structure the Image Gallery](https://teamtreehouse.com/library/how-to-make-a-website/creating-html-content/structure-the-image-gallery)  
-  - [Chrome Dev Tools](https://teamtreehouse.com/library/how-to-make-a-website/debugging-html-and-css-problems/use-developer-tools)
+* [Alix Carman](http://alixcarman.github.io/bio.html)
+* [Tyler Melhart](http://tmelhart.github.io/bio.html)
+* [Wyatt Feaster](http://wyattfeaster.github.io/bio.html) 
+* [Vincent Hamilton](http://vince1000000.github.io/bio)
+* [Ashley Jhaveri](http://josoa.github.io/bio.html)
 
-## 3. Cascade, Inheritance, &amp; Specificity
 
-* DO NOT EDIT `index.html`
-* EDIT ONLY `styles.css`
-* [ ] Override background color
-     * `background: #000`
-* [ ] Override 'Papyrus' font. 
-    * `font-family: Verdana, Geneva, sans-serif;`
-* [ ] Make avatar image circular
-     * `border-radius: 200px;`
-* References
-  - [TH - Cascade & Specificity](https://teamtreehouse.com/library/css-basics-2/fundamental-concepts/the-cascade-specificity-and-source-order)
-  - [CSS Tricks - Specificity](http://css-tricks.com/specifics-on-css-specificity/)
+## Style Tile HOF
 
-## 4. Psuedo Classes & Link States
+* [Danielle Roth](http://danielleroth.github.io/style-tile.html)
+* [Bridget Smith](http://bridgetsmith.github.io/style-tile.html)
+* [Wyatt Feaster](http://wyattfeaster.github.io/style-tile/)
+* [Justin Tew](http://gustsu.github.io/style-tile.html)
 
-* DO NOT EDIT `index.html`
-* EDIT ONLY `styles.css`
-* [ ] Show background appropiate image on link hover, i.e. _**chrome.png**_ for Google link
-* [ ] Only style links inside of `nav`
-* References
-  - [Psuedo Classes](https://teamtreehouse.com/library/css-basics-2/basic-selectors/pseudoclasses-3)
 
-## 5. Layout &amp; The Box Model
 
-* Edit `index.html` & also `styles.css`
-* [ ] Match layout to screenshot
-  - 1st row 3 columns
-  - 2nd row 2 columns
-  - fixed width center aligned at 960px
-* [ ] Fixed collapsed parent i.e. background image
-* [ ] Style **first** paragraph **after** heading
-* References
-  - [TH - Box Model Properties](https://teamtreehouse.com/library/css-basics-2/the-box-model)
-  - [TH - Floats for Layout](https://teamtreehouse.com/library/css-basics/basic-layout/floats)
-  - [CSS Tricks Adjacent Sibling](http://css-tricks.com/almanac/selectors/a/adjacent-sibling/)
 
-## Submission
 
-1. Zip/Compress downloaded folder
-2. Rename to _**Midterm-YOUR-NAME.zip**_
-3. Upload to EWU Canvas _**Midterm**_ assignment
