@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Session 13
+title: Session 15
 ---
 
-# Session 13
+# Session 15
 
 ## Concept: _Website vs. Web Design_
 
