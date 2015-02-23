@@ -1,0 +1,31 @@
+{% include head.html %}
+
+<body class="post">
+
+  <div class="ui page grid">
+    
+    <!-- Header & Nav -->
+    <header class="sixteen wide column">
+      
+      <h1>
+        <a href="../index.html">Web Design 1</a>
+      </h1>
+      
+		{% include nav.html %}
+    
+    </header>
+
+    <!-- Daily & Notices -->
+    <article class="ui grid sixteen page">
+      <div class="sixteen column wide">
+			
+			{{ content }}
+
+      </div>      
+    </article>
+
+  </div>
+  <!-- end .ui.page.grid -->
+
+{% include foot.html %}
+

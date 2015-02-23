@@ -1,3 +1,8 @@
+---
+layout: post
+title: Session 13
+---
+
 # Session 13
 
 ## Concept: _Website vs. Web Design_
