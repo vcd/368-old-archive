@@ -1,5 +1,5 @@
 name: Web Design 1 - DESN 368
 markdown: redcarpet
 pygments: true
-baseurl: /vcd/368
+baseurl: /368
 permalink: /:title
