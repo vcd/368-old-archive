@@ -5,7 +5,7 @@ title: "P4: Contact Form"
 
 # P4: Contact Form
 
-> Posting a naked e-mail link anywhere on the web (or in a newsgroup, in a chatroom, on a weblog comments page…) is generally the kiss of death for your once-healthy address. 
+> Posting a naked e-mail link anywhere on the web is generally the kiss of death for your once-healthy address
 
 ## Objectives
 
