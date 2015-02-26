@@ -3,75 +3,56 @@ layout: post
 title: "P4: Contact Form"
 ---
 
-<h1>P4: Contact Form</h1>
+# P4: Contact Form
 
-<blockquote>
-<p>Posting a naked e-mail link anywhere on the web (or in a newsgroup, in a chatroom, on a weblog comments page…) is generally the kiss of death for your once-healthy address. </p>
-</blockquote>
+> Posting a naked e-mail link anywhere on the web (or in a newsgroup, in a chatroom, on a weblog comments page…) is generally the kiss of death for your once-healthy address. 
 
-<h2>Objectives</h2>
+## Objectives
 
-<ul>
-<li>Functional Contact Form without JavaScript or Server Side code</li>
-<li>Apply Style Tile to form design</li>
-<li>Use third party service to reduce SPAM</li>
-</ul>
+* Functional Contact Form without JavaScript or Server Side code
+* Apply Style Tile to form design
+* Use third party service to reduce SPAM
 
-<h2>Overview</h2>
+## Overview
 
-<ul>
-<li>Use <a href="http://typeform.com">TypeForm service</a> to host Contact Form</li>
-<li>Contact Form <a href="http://alistapart.com/article/gracefulemailobfuscation">without email obfuscation</a></li>
-</ul>
+* Use [TypeForm service](http://typeform.com) to host Contact Form
+* Contact Form [without email obfuscation](http://alistapart.com/article/gracefulemailobfuscation)
 
-<h2>Content</h2>
+## Content
 
-<ol>
-<li>Create an account with <a href="http://www.typeform.com/">TypeForm</a></li>
-<li>Create form call <strong><em>Contact Form</em></strong></li>
-<li>Add fields for: 
+1. Create an account with [TypeForm](http://www.typeform.com/)
+2. Create form call **_Contact Form_**
+3. Add fields for: 
+  - Name
+  - Email Address
+  - Comments
+  - Any optional fields you like
 
-<ul>
-<li>Name</li>
-<li>Email Address</li>
-<li>Comments</li>
-<li>Any optional fields you like</li>
-</ul></li>
-</ol>
+## Design
 
-<h2>Design</h2>
+1. Reference your Style Tile
+2. From TypeForm - in `Design` section, apply your Style Tile
+3. Apply applicable design for: 
+  - Colors
+  - Fonts (note, there are limited fonts. Find closest match.)
+  - Background Image
 
-<ol>
-<li>Reference your Style Tile</li>
-<li>From TypeForm - in <code>Design</code> section, apply your Style Tile</li>
-<li>Apply applicable design for: 
 
-<ul>
-<li>Colors</li>
-<li>Fonts (note, there are limited fonts. Find closest match.)</li>
-<li>Background Image</li>
-</ul></li>
-</ol>
+## Code
 
-<h2>Code</h2>
+1. Create new or add-to exsiting **contact.html** to your **user.github.io** repo
+2. In TypeForm, go to `Distribute` section and click `Embed in web page`
+3. Get code for either: 
+  - Embed as a widget or
+  - Full page embed
+4. Copy & paste the following code from in into `contact.html`
+  
+## Submission
 
-<ol>
-<li>Create new or add-to exsiting <strong>contact.html</strong> to your <strong>user.github.io</strong> repo</li>
-<li>In TypeForm, go to <code>Distribute</code> section and click <code>Embed in web page</code></li>
-<li>Get code for either: 
+* On Canvas, submit URL the _backend_ of your **user.github.io** repo, e.g. _github.com/user_
 
-<ul>
-<li>Embed as a widget or</li>
-<li>Full page embed</li>
-</ul></li>
-<li>Copy &amp; paste the following code from in into <code>contact.html</code></li>
-</ol>
 
-<h2>Submission</h2>
 
-<ul>
-<li>On Canvas, submit URL the <em>backend</em> of your <strong>user.github.io</strong> repo, e.g. <em>github.com/user</em></li>
-</ul>
 
 
 
