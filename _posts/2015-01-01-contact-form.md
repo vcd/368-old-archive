@@ -18,6 +18,10 @@ title: "P4: Contact Form"
 * Use [TypeForm service](http://typeform.com) to host Contact Form
 * Contact Form [without email obfuscation](http://alistapart.com/article/gracefulemailobfuscation)
 
+<iframe src="//player.vimeo.com/video/120726396" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
 ## Content
 
 1. Create an account with [TypeForm](http://www.typeform.com/)
