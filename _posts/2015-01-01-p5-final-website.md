@@ -1,6 +1,6 @@
 ---
 layout: post
-title: P5: Final Website
+title: P5 Final Website
 ---
 
 > Your Website. You designed, you coded, and you let the world see. 
