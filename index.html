@@ -1,117 +1,83 @@
----
-layout: default
-title: Homepage
----
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>368 Website </title>
+		<meta name="description" content="Tab Styles Inspiration: A small collection of styles for tabs" />
+		<meta name="keywords" content="tabs, inspiration, web design, css, modern, effects, svg" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+  		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
 
-<body>
+		<div class="container">
 
-  <div class="ui page grid">
-    
-    <!-- Header & Nav -->
-    <header class="sixteen wide column">
-      
-      <h1>
-        <a href="index.html">Web Design 1</a>
-      </h1>
-      
-      {% include nav.html %}
+			<section>
+				<div class="tabs tabs-style-topline">
+					<nav>
+						<h3>Week 7</h3>
+						<ul>
+							<li>
+								<a href="#section-topline-1" class="icon"><img src="img/concept.svg" alt=""><span>Concepts</span></a></li>
+							<li>
+								<a href="#section-topline-2" class="icon"><img src="img/practice.svg" alt=""><span>Practice</span></a></li>
+							<li>
+								<a href="#section-topline-3" class="icon">
+								<img src="img/application.svg" alt=""><span>Applications</span></a></li>
+						</ul>
+					</nav>
+					<div class="content-wrap">
+						<section id="section-topline-1">
+							
 
-    </header>
+							<p>Check In: Grid Based Layout</p>
+							<ol>
+								<li><a href="https://github.com/vcd/website-starter">Download 368 Starter</a></li>
+								<li>Create 1-3-1 column layout. Refer to `grid.css`</li>
+								<li>Add you own content</li>
+							</ol>
+							
+							<p>Advanced Selectors</p>
+							<p>Refer to <a href="http://teamtreehouse.com/library/css-selectors">TH: CSS Selectors</a></p>
 
-    <!-- Daily & Notices -->
-    <article class="row">
-      
-      <section class="today nine wide column">
-        <h2><i class="icon coffee"></i> Today</h2>
+						</section>
+						<section id="section-topline-2">
+							
+							<p>Practice Using</p>	
+							<ul>
+								<li>Child, Adjacent, and General Sibling Combinators</li>
+								<li>Attribute with substring matching</li>
+								<li>First & Last Child</li>
+								<li>Psuedo Classes</li>
+								<li>:nth-child</li>
+								<li>Psuedo Elements</li>
+							</ul>
 
-          {% include sessions.html %}
+						</section>
+						<section id="section-topline-3">
 
-      </section>
-      
-      <section class="notices six wide column">
-        <h3><i class="icon star"></i> Notices</h3>
-        
-        <ol class="ui list">
-          <li><a href="https://github.com/vcd/website-starter">Download 368 Website Starter</a></li>
-          <li><a href="http://lorempixel.com/">Use sample content from Lorem Pixel</a></li>
-          <li>Create multicolumn layouts</li>
-        </ol>
+								<p>TBA</p>
+						</section>
+					</div><!-- /content -->
+				</div><!-- /tabs -->
+			</section>
 
-        
+		</div><!-- /container -->
 
-      </section>
+		<script src="js/cbpFWTabs.js"></script>
+		<script>
+			(function() {
 
-    </article>
-    
-    
-    <aside class="sixteen wide column">
-      <blockquote>
-        HTML, CSS, and JavaScript aren’t the tools of web design, they are the medium of web design.
-      </blockquote>
-      <!-- <blockquote>Level up your design <br>with HTML and CSS.</blockquote> -->
-    </aside>
+				[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+					new CBPFWTabs( el );
+				});
 
-    
-    <!-- Sessions 
-    <article class="sessions row">
-
-      <section class="four wide column">
-        <h4>Session 8</h4>
-        <small>Tue, Oct. XX</small>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </section>
-      <section class="four wide column">
-        <h4>Session 7</h4>
-        <small>Tue, Oct. XX</small>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </section>
-      <section class="four wide column">
-        <h4>Session 6</h4>
-        <small>Tue, Oct. XX</small>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-      </section>
-      <section class="four wide column">
-        <h4>Session 5</h4>
-        <small>Tue, Oct. XX</small>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </section>
-
-      <section class="four wide column">
-        <h4>Session 4</h4>
-        <small>Tue, Oct. XX</small>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </section>
-      <section class="four wide column">
-        <h4>Session 3</h4>
-        <small>Tue, Oct. XX</small>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </section>
-      <section class="four wide column">
-        <h4>Session 2</h4>
-        <small>Tue, Oct. XX</small>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-      </section>
-      <section class="four wide column">
-        <h4>Session 1</h4>
-        <small>Tue, Oct. XX</small>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </section>
-
-    </article>
-
-    <footer class="sixteen wide column">
-      <nav>
-        <ul>
-          <li><a href="sessions.html">Sessions</a></li>
-          <li><a href="references.html">References</a></li>
-          <li><a href="students.html">Students</a></li>
-          <li><a href="#">Colophon</a></li>
-          <li>DESN 368 Fall Quarter 2014.</li>
-        </ul>
-      </nav>
-      
-    </footer>
-
-  </div>
-  -->
-
+			})();
+		</script>
+	</body>
+</html>

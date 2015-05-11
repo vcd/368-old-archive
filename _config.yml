@@ -1,5 +1,0 @@
-name: Web Design 1 - DESN 368
-markdown: redcarpet
-pygments: true
-baseurl: /368
-permalink: /:title
