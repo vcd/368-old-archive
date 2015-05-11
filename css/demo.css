@@ -176,10 +176,6 @@ p {
 	max-width: 1200px;
 }
 
-.tabs-style-topline nav li {
-	border: 1px solid rgba(40,44,42,0.1);
-}
-
 .tabs-style-topline nav li:not(:last-child) {
 	border-right: none;
 }
