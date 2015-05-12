@@ -5,7 +5,7 @@ layout: default
 
   <div>
 		{% capture test %}
-			{% include _posts/tmp.md %}
+			{% include_relative _posts/tmp.md %}
 		{% endcapture %} 
 		{{ test | markdownify }}
 </div>
