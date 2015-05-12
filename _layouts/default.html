@@ -4,7 +4,9 @@
 	
 		{{ content }}
 		
-		{% include_relative tmp.md %}
+		{% capture wk1 %}
+			{% include_relative tmp.md %}{% endcapture %} 
+		{{ wk1 | markdownify }}
 	
 	</body>
 </html>
