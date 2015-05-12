@@ -1,11 +1,9 @@
 {% include html-head.html %}
 	
 <body>
-	
-		{{ content }}
 		
 		{% capture wk1 %}
-			{% include_relative /368/tmp.md %}
+			{% include_relative _posts/tmp.md %}
 		{% endcapture %} 
 		{{ wk1 | markdownify }}
 	
