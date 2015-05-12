@@ -3,6 +3,6 @@ layout: default
 ---
 
 		{% capture p %}
-			{% include tmp.md %}
+			{% include_relative _posts/tmp.md %}
 		{% endcapture %} 
 		{{ p | markdownify }}
