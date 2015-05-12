@@ -1,10 +1,5 @@
----
-layout: default
----
 
 	<body>
-		
-		{% include_relative tmp.md %}
 
 		<div class="container">
 
