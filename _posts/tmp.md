@@ -1,6 +1,6 @@
 ---
-layout: default
 ---
+
 
 ## Why Won't this work
 
