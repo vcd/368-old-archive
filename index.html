@@ -1,1 +1,11 @@
+---
+layout: default
+---
 
+
+  <div>
+		{% capture wk1 %}
+			{% include_relative _posts/tmp.md %}
+		{% endcapture %} 
+		{{ wk1 | markdownify }}
+</div>
